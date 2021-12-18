@@ -1,0 +1,68 @@
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p, a, div, span, h1, h2, h3, h4, h5, legend, button {
+    font-family: 'EB Garamond', serif;
+}
+
+header {
+    height: 50px;
+}
+
+main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+footer {
+    height: 40px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.block {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.block-row {
+    min-height: calc(100vh - 90px);
+}
+
+.paginator-block {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.bg-1 {
+    background-color: #00386c;
+}
+
+.bg-2 {
+    background-color: #368ff9;
+}
+
+.form {
+    max-width: 360px;
+}
+
+.logo {
+    margin-top: -10%;
+}
